@@ -1,0 +1,55 @@
+.detail-leaves {
+  left : -680px;
+  top : -700px;
+  position: relative;
+}
+
+.img_user {
+  z-index: 1000;
+}
+
+.detail-title {
+  font-family: 'Monoton';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 45px;
+  line-height: 86px;
+  margin-left: 56px;
+  /*top: -449px;*/
+  position: relative;
+  margin-top: 0px;
+  /* identical to box height */
+
+
+  color: #122E08;
+}
+
+.detail-text {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 210.7%;
+  /* or 42px */
+
+
+  color: #172B12;
+  /*top : -449px;*/
+  margin-left: 56px;
+  position: relative;
+}
+
+.res-show {
+  visible: visible;
+}
+
+
+@media only screen and (max-width: 991px) {
+
+  .detail-leaves {
+    display: none;
+  }
+  .detail-text{
+    padding-right:  5%;
+  }
+}

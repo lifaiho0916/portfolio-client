@@ -1,0 +1,6 @@
+.grid-img.lightbox-enabled {
+    cursor: pointer;
+}
+.grid-img:last-child {
+    width: inherit !important;
+}

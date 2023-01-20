@@ -1,0 +1,26 @@
+html {
+  scroll-behavior: smooth;
+}
+
+section {
+  /* margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; */
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  width: 100%;
+  background: #DCDCDC;
+}
+
+select.form-control, textarea.form-control, input.form-control {
+  font-size: 1rem;
+}
+
+input[type=file] {
+  width: 100%;
+}

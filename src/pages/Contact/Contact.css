@@ -1,0 +1,125 @@
+
+
+#send-button {
+  margin: 0px;
+  max-width: 135px;
+  position: absolute;
+  right: 73px;
+}
+
+.contact-wrapper {
+  width: 1332px;
+  height: 744px;
+  background: #FFFFFF;
+  border-radius: 25px;
+  
+}
+
+.contact-container {
+  width: 100%;
+  height: 100%;
+}
+
+.contact-wrapper .form-group {
+  margin-bottom: 1rem;
+  width: 85%;
+  margin: 26px auto;
+}
+
+.contact-row {
+  width: 1332px;
+  height: 744px;
+  background: #FFFFFF;
+  border-radius: 25px;
+}
+
+.contact-title {
+  font-family: 'Monoton';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 55px;
+  line-height: 86px;
+  text-align: center;
+  margin-top: 22px;
+  /* identical to box height */
+
+
+  color: #122E08;
+}
+
+.contact-subrow {
+  margin-left: 55px;
+  margin-right: 55px;
+  margin-top: 28px;
+}
+
+.title-row{
+  margin-top: 22px;
+  margin-left: 55px;
+  margin-right: 55px;
+}
+
+.contact-label {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  /* or 150% */
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: #000000;
+
+}
+
+.contact-input {
+  border: 1px solid #000000;
+  border-radius: 6px;
+  margin-top: 10px;
+  height: 59px;
+}
+
+.contact-textarea {
+  border: 1px solid #000000;
+  border-radius: 6px;
+  margin-top: 10px;
+  width: 100%;
+  height: 198px;
+}
+
+.btn-send {
+  width: 176px;
+  height: 49px;
+  background: #042801;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  /* or 150% */
+
+
+  color: #FFFFFF;
+}
+
+
+@media only screen and (max-width: 480px) {
+  .contact-wrapper {
+    width: auto;
+  }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 481px) {
+  .contact-container {
+    height: 100%;
+  }
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 992px) {
+  .contact-container {
+    height: 70%;
+  }
+  .contact-wrapper {
+    height: 50%;
+  }
+}
