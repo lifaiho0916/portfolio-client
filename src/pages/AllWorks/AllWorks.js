@@ -24,12 +24,12 @@ function AllWorks() {
   const [imgData,setImgData] = useState([]);
   const [loadable , setLoadable] = useState(true);
   const onLoad = () =>{
-    axios.get('http://localhost:4000/images/', )
+    axios.get('http://localhost:4000/api/images/', )
       .then(res => {
         // res.data = [{"_id":"6399693c1cf46e21f0a4e2fc","name":"user_picsmaple.png","file":"65baecff-5453-42b2-ba22-ec535413d30e-1670998332002.png","__v":0},{"_id":"639969571cf46e21f0a4e2ff","name":"abstract-php-c-analytics.jpg","file":"9dbf6c3d-ffb5-4dd7-93e6-8da3e6646861-1670998359605.jpg","__v":0},{"_id":"639969701cf46e21f0a4e301","name":"2hjc9n8hifpf121uhjzw.jpg","file":"fdb0f520-2722-4b05-b864-053dd2a46ec3-1670998384206.jpg","__v":0},{"_id":"639969831cf46e21f0a4e303","name":"employee-directory.jpg","file":"ac0a77b7-f157-4f09-8103-8eef2b9f5a62-1670998403158.jpg","__v":0},{"_id":"6399698d1cf46e21f0a4e305","name":"pic_1.png","file":"97af6435-8ab3-44c5-88c1-881264188201-1670998413748.png","__v":0},{"_id":"639969941cf46e21f0a4e307","name":"pic_2.png","file":"4f824183-0157-4f33-9d44-c849acf2d0dc-1670998420548.png","__v":0},{"_id":"6399699b1cf46e21f0a4e309","name":"pic_3.png","file":"6c40ca5b-a320-4a58-9281-f07923c185bf-1670998427576.png","__v":0}];
         let img_data = res.data;
         setImgData(img_data);
-        let img_path = 'http://localhost:4000/images/';
+        let img_path = 'http://localhost:4000/api/images/';
         let j = -1;
         // let visible_cnts = img_data.length <= 5 ? img_data.length : 5;
         console.log(img_data);
